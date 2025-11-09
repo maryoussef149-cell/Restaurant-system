@@ -1,5 +1,7 @@
 Restaurant Ordering System (ROS) Simulation
+
 Project Overview
+
 Welcome to the Restaurant Ordering System (ROS), a sophisticated Java simulation designed to model the full lifecycle of a modern restaurant order—from customer selection to payment and fulfillment.
 
 This project was developed for the Advanced Software Engineering course at Cairo University, with a core focus on applying Gang of Four (GoF) Design Patterns to achieve a highly modular, extensible, and maintainable architecture.
@@ -40,7 +42,7 @@ Once an order is successfully paid for, the Observer pattern notifies backend sy
 
 The Order acts as the subject, notifying observers like the KitchenSystem (start cooking!) and the WaiterSystem (prepare for service/delivery).
 
-💻 Running the Project
+Running the Project
 The project is pre-configured to run three comprehensive static test scenarios via the Application.java main method.
 
 Prerequisites
@@ -64,7 +66,3 @@ Scenario	Goal	Key Feature Demonstrated
 Scenario 1	Delivery Order	Loyalty Discount and Chicken Category Discount applied via the Chain of Responsibility, followed by a successful Credit Card Strategy.
 Scenario 2	Takeaway Order	Minimum Order Discount ($10 off) triggered by a high subtotal, demonstrating the Takeaway Template Method and a simple Cash Payment Strategy.
 Scenario 3	Payment Failure	Order value intentionally set over $500 to trigger a PaymentProcessingException within the MobileWalletPayment Strategy, halting the workflow before completion.
-
-The clear separation of concerns in the Builder structure.
-
-The resilience and interchangeability provided by the Strategy (Payment) and Chain of Responsibility (Discount) patterns.
