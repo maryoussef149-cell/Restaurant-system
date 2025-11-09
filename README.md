@@ -1,10 +1,10 @@
 Restaurant Ordering System (ROS) Simulation
-🌟 Project Overview
+Project Overview
 Welcome to the Restaurant Ordering System (ROS), a sophisticated Java simulation designed to model the full lifecycle of a modern restaurant order—from customer selection to payment and fulfillment.
 
 This project was developed for the Advanced Software Engineering course at Cairo University, with a core focus on applying Gang of Four (GoF) Design Patterns to achieve a highly modular, extensible, and maintainable architecture.
 
-🎨 Architectural Design: Patterns in Action
+Architectural Design: Patterns in Action
 Our system is structured around key behavioral and structural design patterns, ensuring that we can swap out components (like payment methods or discount rules) without altering the core ordering logic.
 
 1. The Core Workflow (Template Method)
