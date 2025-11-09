@@ -62,7 +62,9 @@ java Application
 Example Output Preview
 Running the program will automatically execute three distinct tests, printing the full processing details for each, including applied charges, discounts, and the final receipt or error message.
 
-Scenario	Goal	Key Feature Demonstrated
+
 Scenario 1	Delivery Order	Loyalty Discount and Chicken Category Discount applied via the Chain of Responsibility, followed by a successful Credit Card Strategy.
+
 Scenario 2	Takeaway Order	Minimum Order Discount ($10 off) triggered by a high subtotal, demonstrating the Takeaway Template Method and a simple Cash Payment Strategy.
+
 Scenario 3	Payment Failure	Order value intentionally set over $500 to trigger a PaymentProcessingException within the MobileWalletPayment Strategy, halting the workflow before completion.
